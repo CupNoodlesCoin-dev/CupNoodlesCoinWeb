@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: #f6f6f6;
+  color: #141414;
+}
+.content {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 50px;
+}
+.custom-nav {
+  background-color: #FFC55C;
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.content-title {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.twitter {
+  color: #003800;
+  font-size: 24px;
+  margin-top: -6px;
+}
+
+.noodles {
+  width: 130px;
+  height: 151px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.coin-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.divider {
+  margin-top: 20px;
+  width: 85px;
+  height: 5px;
+  background-color: #FFC55C;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #FFC55C;
+    border-color: #FFC55C;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+    background-color: white;
+    border-color: white;
+    color: #FFC55C;
+}
+
+.btn {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.noodlesgif {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 400px;
+  height: 260px;
+}
+
+@media only screen and (max-width: 600px) {
+  .noodlesgif {
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buy-step {
+    margin-top: 10px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #fff;
+    background-position: 80% 12%;
+    background-size: cover;
+    box-shadow: 1px 1px 20px 8px rgb(0 61 0 / 7%);
+}
+
+.step-1 {
+  background-image: url(https://uploads-ssl.webflow.com/60a9140e4874de04164387e8/60aaa59dda6c83142b2c85f1_step1background.png);
+}
+
+.step-2 {
+  background-image: url(https://uploads-ssl.webflow.com/60a9140e4874de04164387e8/60aaa4de4dc23ff0c056e648_step2background.png);
+}
+
+.step-3 {
+  background-image: url(https://uploads-ssl.webflow.com/60a9140e4874de04164387e8/60aaa6217140a54733d2ff13_step3background.png);
+}
+
+.step-button {
+  border-radius: 15px;
+  width: 80px;
+  height: 30px;
+  background-color: #FFC55C;
   color: white;
+  top: 10px;
+  left: 10px;
+  position: relative;
+  font-weight: 500;
+  line-height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.step-title {
+  margin-top: 20px;
+  margin-left: 13px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.step-content {
+  margin-top: 20px;
+  margin-left: 13px;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.tg-icon-container {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.tg-icon-container:hover {
+    cursor: pointer;
+}
+
+.tgicon {
+  width: 70px;
+  height: 45px;
+}
+
+.end-content {
+  padding-bottom: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+svg:hover{
+  cursor: pointer;
 }
