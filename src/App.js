@@ -22,18 +22,19 @@ function App() {
             <img
               className="icon"
               src="https://uploads-ssl.webflow.com/60a9140e4874de04164387e8/60a95c6f4693009ed5838675_pancakeswap.png"
+              onClick={() => openInNewTab('https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x55d398326f99059ff775485246999027b3197955&outputCurrency=0x50feDA21961B8097f18Ba884f03842377980761f')}
             />
           </div>
           <div className="icon-container">
             <img
               className="icon"
               src="https://uploads-ssl.webflow.com/60a9140e4874de04164387e8/60a95c5852279b878aa9a098_tele.png"
-              onClick={() => openInNewTab('https://t.me/CupNoodlesCoin114514')}
+              onClick={() => openInNewTab('https://t.me/CupNoodlesCoin_China')}
             />
           </div>
 
           <div className="icon-container twitter">
-            <Twitter onClick={() => openInNewTab('https://twitter.com')}/>
+            <Twitter onClick={() => openInNewTab('https://twitter.com/CupNoodlesCoin')}/>
           </div>
         </div>
       </Navbar>
@@ -43,7 +44,7 @@ function App() {
           <img className="noodles" src={noodles} />
         </div>
         <div className="d-flex justify-content-center coin-title">
-          $CNC 泡面币
+          CNC（Cup Noodles Coin）泡面币
         </div>
       <div className="content">
         <div className="container-fluid p-0">
@@ -54,7 +55,7 @@ function App() {
                 <div>泡面币</div>
                 <div>的初衷和目的</div>
               </div>
-              在文字录入比赛（打字比赛）中，最公平的比赛用文本就是随机文本，这个随机汉字生成器便是为此所作。普通人的汉字录入速度一般是每分钟几十个到一百多个，我们可以生成一两千字的随机汉字文本，让比赛者录入完这些汉字，依据他们的比赛用时和正确率判断名次。生成随机汉字的原始文字一般选择常用汉字，经过随机排列之后只能一个字一个字的输入，对参赛者来说是相对公平的方案。
+              不会做饭的青年C由于一次币圈收割惨案亏了很多钱，他不得不辞掉了家里的米其林首席厨师，不会做饭的他唯独对泡面情有独钟，于是泡面币诞生了。
               <div className="button-container">
                 <Button variant="primary" size="lg">
                   查看K线图
@@ -78,19 +79,25 @@ function App() {
               <div className="divider" />
               <div className="content-title">
                 <div>泡面币</div>
-                <div>的代币详情与分发比</div>
+                <div>的代币详情</div>
               </div>
-              区块链: BSC 币安链
+              <em>区块链:</em> BSC 币安链
               <br />
-              合约地址: 0x8c5595F8C61321273fa8151ce74FFCBeE3390814
+              <em>主网络:</em> BEP20
               <br />
-              总量: 100,000,000,000
+              <em>合约地址:</em> 0x50feDA21961B8097f18Ba884f03842377980761f
               <br />
-              总量: 100,000,000,000
+              <em>机制:</em> 每笔交易2%分红，3%添加流动池，支持CNC兑泡面服务。
               <br />
-              总量: 100,000,000,000
+              <em>代币发行总量:</em> 10,000,000,000（100亿)
               <br />
-              总量: 100,000,000,000
+              <em>PancakeSwap流动性提供（进行中）:</em> 40亿
+              <br />
+              <em>CNC挖矿（准备开发）:</em> 30亿
+              <br />
+              <em>社区激励（空投）:</em> 20亿
+              <br />
+              <em>技术研发和运营（进行中）: </em>10亿
             </div>
           </div>
           <div className="col-sm-6 col-xs-6 col-md-6">
@@ -98,15 +105,14 @@ function App() {
             <div className="divider" />
             <div className="content-title">
               <div>泡面币</div>
-              <div>的活动社区</div>
+              <div>的官方活动社区</div>
             </div>
-            电报Telegram中文社区: <a href="https://t.me/CupNoodlesCoin114514" target="_blank" > https://t.me/CupNoodlesCoin114514 </a>
+            <em>官方中文电报群:</em> <a href="https://t.me/CupNoodlesCoin_China" target="_blank" > https://t.me/CupNoodlesCoin_China </a>
             <br />
-            电报Telegram英文社区:  <a href="https://t.me/CupNoodlesCoin114514" target="_blank" > https://t.me/CupNoodlesCoin114514 </a>
+            <em>官方英文电报群:</em> <a href="https://t.me/CupNoodlesCoin_English" target="_blank" > https://t.me/CupNoodlesCoin_English </a>
             <br />
-            推特Twitter:  <a href="https://twitter.com" target="_blank" > https://twitter.com </a>
+            <em>官方推特号:</em>  <a href="https://twitter.com/CupNoodlesCoin" target="_blank" > https://twitter.com/CupNoodlesCoin </a>
             <br />
-            Reddit: <a href="https://reddit.com" target="_blank" > https://reddit.com </a>
           </div>
           </div>
         </div>
@@ -118,17 +124,12 @@ function App() {
           <div>泡面币</div>
           <div>的项目进程</div>
         </div>
-        <b>2021年06月:</b> 随机文本随机文本随机文本随机文本随机文本
+        <em>2021年06月:</em> CNC上线Pancake
         <br />
-        <b>2021年06月:</b> 随机文本随机文本随机文本
+        <em>2021年08月:</em> CNC挖矿正式上线
         <br />
-        <b>2021年06月:</b> 随机文本随机文本随机文本随机文随机文
+        <em>2021年10月:</em> CNC兑泡面服务正式上线
         <br />
-        <b>2021年06月:</b> 随机文本随机文本随机文本随机文本
-        <br />
-        <b>2021年06月:</b> 随机文本随机文本
-        <br />
-        <b>2021年06月:</b> 随机文本随机文本随机文本随机文本
       </div>
 
       <div className="container-fluid p-0">
@@ -142,15 +143,15 @@ function App() {
             <div className="col-sm-4 col-xs-4 col-md-4">
               <div className="buy-step step-1">
                 <div className="step-button"> &nbsp; &nbsp; 第一步 </div>
-                <div className="step-title"> 拥有币安钱包 </div>
-                <p className="step-content"> 无可否认，当读者在浏览一个页面的排版时，难免会被可阅读的内容所分散注意力。Lorem Ipsum的目的就是为了保持字母多多少少标准及平均的分配，而不是“此处有文本，此处有文本” </p>
+                <div className="step-title"> 拥有BSC钱包 </div>
+                <p className="step-content"> 如果您还没有BSC钱包，我们推荐您使用TP(TokenPocket)来创建自己的BSC钱包。</p>
               </div>
             </div>
             <div className="col-sm-4 col-xs-4 col-md-4">
             <div className="buy-step step-2">
               <div className="step-button"> &nbsp; &nbsp; 第二步 </div>
               <div className="step-title"> 在薄饼上添加泡面币 </div>
-              <p className="step-content"> 无可否认，当读者在浏览一个页面的排版时，难免会被可阅读的内容所分散注意力。Lorem Ipsum的目的就是为了保持字母多多少少标准及平均的分配，而不是“此处有文本，此处有文本” </p>
+              <p className="step-content"> 请点击屏幕上方的薄饼图标，然后在薄饼中确实添加泡面币并且链接您的BSC钱包。如果成功连接并添加，您将看到泡面币CNC出现在Swap的选项里。</p>
 
             </div>
             </div>
@@ -158,8 +159,7 @@ function App() {
             <div className="buy-step step-3">
               <div className="step-button"> &nbsp; &nbsp; 第三步 </div>
               <div className="step-title"> 用USDT兑换泡面币 </div>
-              <p className="step-content"> 无可否认，当读者在浏览一个页面的排版时，难免会被可阅读的内容所分散注意力。Lorem Ipsum的目的就是为了保持字母多多少少标准及平均的分配，而不是“此处有文本，此处有文本” </p>
-
+              <p className="step-content"> 购买泡面币，您需要在BSC钱包里有足够的USDT。当有USDT余额时，请确认在Swap里的是USDT/CNC并输入USDT的金额进行购买。</p>
             </div>
             </div>
             </div>
@@ -167,9 +167,9 @@ function App() {
         </div>
       </div>
       <div className="content end-content">
-        Copyright © Cup Noodles Coin
+        Copyright © Cup Noodles Coin Teams
       </div>
-      <div className='tg-icon-container' onClick={() => openInNewTab('https://t.me/CupNoodlesCoin114514')}>
+      <div className='tg-icon-container' onClick={() => openInNewTab('https://t.me/CupNoodlesCoin_China')}>
         <img className="tgicon" src={tgicon} />
       </div>
     </div>
