@@ -67,7 +67,7 @@ function App() {
               A younge guy, named C, lost tons of money after a rug pull. He couldn't afford his in-house Michelin star chef. With the low balance in his bank account, all he can eat and cook is cup noodles. That's how Cup Noodles Coin was created.
               <div className="button-container">
                 <Button variant="primary" size="lg">
-                  View Price Chart
+                  Price Chart
                 </Button>
                 <Button variant="primary" size="lg">
                   White Paper
