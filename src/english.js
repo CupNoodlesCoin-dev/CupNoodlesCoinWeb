@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import noodles from "./noodles.JPG";
 import noodlesgif from "./noodles.gif";
 import tgicon from "./tg.png";
+import whitePaper from "./whitepaper.pdf";
+
 
 function App() {
   var openInNewTab = (url) => {
@@ -69,7 +71,7 @@ function App() {
                 <Button variant="primary" size="lg">
                   Price Chart
                 </Button>
-                <Button variant="primary" size="lg">
+                <Button variant="primary" size="lg" onClick={() => openInSameTab(whitePaper)}>
                   White Paper
                 </Button>
               </div>
