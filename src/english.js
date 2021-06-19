@@ -68,7 +68,7 @@ function App() {
               </div>
               A younge guy, named C, lost tons of money after a rug pull. He couldn't afford his in-house Michelin star chef. With the low balance in his bank account, all he can eat and cook is cup noodles. That's how Cup Noodles Coin was created.
               <div className="button-container">
-                <Button variant="primary" size="lg">
+                <Button variant="primary" size="lg" onClick={() => openInNewTab('https://dex.guru/token/0x50feDA21961B8097f18Ba884f03842377980761f-bsc')}>
                   Price Chart
                 </Button>
                 <Button variant="primary" size="lg" onClick={() => openInSameTab(whitePaper)}>

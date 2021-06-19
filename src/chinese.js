@@ -67,7 +67,7 @@ function App() {
               </div>
               泡面币的项目团队成员均来自于一个土狗币G**的骗局，大家作为管理员辛苦打工了10天却一无所获，最后还被G**发行方撤了池子，背了大锅。怀揣着仅剩的一点钱和梦想，被鸽（割）的管理员们聚在一起，一同发行了Cup Noodles Coin, 泡面币。
               <div className="button-container">
-                <Button variant="primary" size="lg">
+                <Button variant="primary" size="lg" onClick={() => openInNewTab('https://dex.guru/token/0x50feDA21961B8097f18Ba884f03842377980761f-bsc')}>
                   查看K线图
                 </Button>
                 <Button variant="primary" size="lg" onClick={() => openInSameTab(whitePaper)}>
