@@ -139,7 +139,7 @@ function App() {
               </div>
               <div>
                 <i>1. 怎么知道泡面币锁没锁池子? </i>{" "}
-                &nbsp;&nbsp;&nbsp;&nbsp;项目方把40亿的泡面币上线当天利用DxSale平台将池子锁三年(至2022年6月18号).{" "}
+                &nbsp;&nbsp;&nbsp;&nbsp;项目方把40亿的泡面币上线当天利用DxSale平台将池子锁三年(至2024年6月18号).{" "}
                 <b
                   onClick={() =>
                     openInNewTab(
